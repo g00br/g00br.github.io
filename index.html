@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Shadowlands Icecrown Rares</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/darkly/bootstrap.min.css" integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<style>
+		img.card-img-top {
+			margin: auto;
+			padding: 15px 40px 0px 40px;
+		}
+	</style>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RFH2EZDY77"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-RFH2EZDY77');
+	</script>
+
+	<script type="text/javascript">
+		(function(c,l,a,r,i,t,y){
+			c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+			t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+			y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+		})(window, document, "clarity", "script", "42kc21be3m");
+	</script>
+</head>
+
+<body>
+	<header>
+		<div class="navbar navbar-dark bg-dark box-shadow">
+			<div class="container d-flex justify-content-between">
+				<a href="#" class="navbar-brand d-flex align-items-center">
+					<strong>Scourge Invasion: Icecrown Rares (Europe, North America & Oceania regions)</strong>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<main role="main">
+
+		<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+			<p class="lead">
+			This site shows the Icecrown rare rotation for the Scourge Invasion.<br/>
+			It sorts the rares in order of appearance and shows the time remaining until spawn, as well as the spawn time in your local time.</p>
+			<p class="lead">
+				Region Selection
+				<div class="btn-group" role="group" aria-label="Region Switch">
+					<button type="button" class="btn btn-primary region-eu">EU</button>
+					<button type="button" class="btn btn-secondary region-us">NA</button>
+					<button type="button" class="btn btn-secondary region-au">OC</button>
+				</div>
+			</p>
+			<p class="lead">
+				<button type="button" class="btn btn-primary" onclick="refreshCards();">
+					<i class="fa fa-refresh"></i>&nbsp;&nbsp;Refresh
+				</button>
+			</p>
+			<p><small>Multiple rares can be up if they are not killed, this page shows the latest spawn. Previous spawns are last in the rotation and can be checked at the end of the list.</small></p>
+		</div>
+		
+		<div class="album py-5 bg-light">
+			<div class="container">
+
+				<div class="row" id="cards">
+
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<script>const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script>
+	<script src="https://wow.zamimg.com/widgets/power.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js" integrity="sha512-LGXaggshOkD/at6PFNcp2V2unf9LzFq6LE+sChH7ceMTDP0g2kn6Vxwgg7wkPP7AAtX+lmPqPdxB47A0Nz0cMQ==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
