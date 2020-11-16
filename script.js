@@ -1,4 +1,4 @@
-const tuning = 60;
+const tuning = 60; 
 
 const init = {
 	eu: {
