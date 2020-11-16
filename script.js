@@ -2,8 +2,8 @@ const tuning = 60;
 
 const init = {
 	eu: {
-		rare: 174059,
-		timer: "2020-11-12T03:20:00Z"
+		rare: 174062,
+		timer: "2020-11-12T03:50:00Z"
 	},
 	us: {
 		rare: 174062,
